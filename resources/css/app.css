@@ -1,0 +1,23 @@
+button {
+    background-color: skyblue;
+    min-height: 50px;
+    min-width: 100px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px #a0aec0;
+    font-family: Roboto, serif;
+    font-size: medium;
+    color: #1a202c;
+    font-style: oblique;
+    cursor: pointer;
+}
+
+span {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+}
+
+body {
+    background-color: aliceblue;
+}
