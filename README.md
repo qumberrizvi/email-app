@@ -71,3 +71,6 @@ In Laravel app, click on the blue `Send mails` button.
 It should start sending mails immediately.
 Visit the Mailhog tab, and you should be able to see the mails being sent.
 
+### Demo Video
+
+Please find the [demo video here](https://www.loom.com/share/ec4d18ef4ee347af91e40dcdf96426a4).
