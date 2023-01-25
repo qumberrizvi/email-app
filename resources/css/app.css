@@ -1,5 +1,5 @@
-button {
-    background-color: skyblue;
+.send-button {
+    background-color: #185c97;
     min-height: 50px;
     min-width: 100px;
     border: none;
@@ -7,17 +7,42 @@ button {
     box-shadow: 3px 3px #a0aec0;
     font-family: Roboto, serif;
     font-size: medium;
-    color: #1a202c;
+    color: aliceblue;
     font-style: oblique;
     cursor: pointer;
+    padding: 10px;
 }
 
-span {
+.centered {
     position: absolute;
     top: 50vh;
     left: 50vw;
 }
 
+.emoji {
+    margin-right: 5px;
+}
+
 body {
     background-color: aliceblue;
+}
+
+.success-message {
+    background-color: lightgreen;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #a0aec0;
+    color: #185c97;
+}
+
+.error-message {
+    background-color: lightsalmon;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #a0aec0;
+    color: #185c97;
+    position: absolute;
+    top: 60vh;
+    left: 47vw;
+    margin-top: 20px;
 }
