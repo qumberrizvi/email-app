@@ -6,6 +6,7 @@
 - Docker Compose
 - PHP 8.0.2 or higher
 - Composer 2
+- NodeJS 18+
 
 ## Installation
 
@@ -32,7 +33,7 @@ Just run the following
 php artisan migrate
 ```
 
-Shell will prompt you to create a `database.sqlite`. Type `yes` and press <kbd>Enter ⏎</kbd>
+Shell will prompt you to create a `database.sqlite` file. Type `yes` and press <kbd>Enter ⏎</kbd>
 
 ### Seeding
 
@@ -40,7 +41,9 @@ Run the following to seed
 ```shell
 php artisan db:seed
 ```
-The seeder inserts 3 lacs users, so it can take a few minutes.
+The seeder inserts 3 lacs users, so it can take a few minutes. Feel free to kill the process by pressing
+<kbd>Ctrl</kbd>+<kbd>C</kbd> if you don't want all 3 lacs users seeded. 
+
 
 ### Start the apps
 
