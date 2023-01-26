@@ -7,6 +7,11 @@
 - PHP 8.0.2 or higher
 - Composer 2
 - NodeJS 18+
+- Please ensure that the following ports are free: 
+    - 80:   for Laravel app
+    - 6379: for Redis
+    - 1025: for Mailhog SMTP
+    - 8025: for Mailhog Web UI
 
 ## Installation
 
